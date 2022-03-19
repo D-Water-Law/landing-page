@@ -10,6 +10,19 @@ a {
     text-decoration: none;
 }
 
+.button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 14px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border-width: thin;
+}
+
+/* header */
+
 #logo img {
     height: 50px;
     width: auto;
@@ -20,13 +33,12 @@ a {
     display: flex;
     background-color: #1f2937;
     flex-flow: column nowrap;
+    row-gap: 30px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
-    
-
 }
 
 .link {
@@ -47,4 +59,35 @@ a {
 
 .right-links a {
     color: white;
+}
+
+
+/* below header*/
+
+.info {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.info .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info .title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.info .text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info img{
+    height: 300px;
+    width: auto;
 }
