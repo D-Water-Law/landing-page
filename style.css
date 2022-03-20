@@ -91,3 +91,49 @@ a {
     height: 300px;
     width: auto;
 }
+
+/* Second Heading */
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    
+}
+
+.second .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.second .container{
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 40px;
+}
+
+.second .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.second img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+    
+}
+
+.second .text{
+    font-size: 18px;
+    color: #9c9ea1;
+}
+
+
