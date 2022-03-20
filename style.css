@@ -136,4 +136,33 @@ a {
     color: #9c9ea1;
 }
 
+/* Third */
 
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.third .container{
+    display: flex;
+    flex-direction: column;
+
+}
+.third .text{
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.third .name{
+    font-size: 34px;
+    font-weight: bold;
+    align-self: flex-end;
+}
