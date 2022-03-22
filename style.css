@@ -24,7 +24,7 @@ a {
 /* header */
 
 #logo img {
-    height: 50px;
+    height: 80px;
     width: auto;
 }
 
@@ -48,13 +48,14 @@ a {
 
 .info {
     display: flex;
+    padding: 20px
 }
 
 .right-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 .right-links a {
@@ -144,10 +145,8 @@ a {
     align-items: center;
     background-color: #e5e7eb;
     color: #1f2937;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .third .container{
@@ -165,4 +164,59 @@ a {
     font-size: 34px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Fourth */
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.card {
+    display: flex;
+    background-color: #3882f6;
+    padding: 20px 40px;
+    border-radius: 8px;
+    column-gap: 20px;
+}
+
+.fourth .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.fourth .text{
+    font-size: 20px;
+    color: white;
+}
+
+.card .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .button{
+    border-color: white;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px;
+    color: white;
 }
